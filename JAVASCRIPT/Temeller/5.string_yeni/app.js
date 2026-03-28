@@ -1,3 +1,5 @@
+// EGITIM-TR: JavaScript dil temelleri — '5.string_yeni' konusu örnek JavaScript betiği.
+
 const name = "Ahmet";
 const surname = "Yılmaz";
 const age = 30;
@@ -22,6 +24,7 @@ const html = `<ul>
                 <li>${surname}</li>
                 <li>${age}</li>
               </ul>`;
+// Üretilen HTML'i sayfa gövdesine yazar (eğitim ortamında; kullanıcı girdisiyle birleştirmek XSS riski doğurur).
 document.body.innerHTML = html;
 
 

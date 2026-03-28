@@ -1,3 +1,7 @@
+// EGITIM-TR: JavaScript dil temelleri — '9.kosul_durumlari' konusu örnek JavaScript betiği.
+
+// if / else if / else, tek satır if-else, üçlü operatör ve switch örnekleri.
+
 const number = 120;
 
 if (number === 120) {

@@ -1,3 +1,5 @@
+// EGITIM-TR: JavaScript dil temelleri — '12.window' konusu örnek JavaScript betiği.
+
 alert("Merhaba, dünya!");
 
 const cevap = confirm("Devam etmek istiyor musunuz?");
@@ -18,15 +20,15 @@ if (!isNaN(sayi)) {
 let value;
 
 value = window.location.href;
-console.log("Current URL: " + value);
+console.log("Geçerli tam adres (URL): " + value);
 value = window.location.host;
-console.log("Host: " + value);
+console.log("Sunucu adı ve port (host): " + value);
 value = window.location.pathname;
-console.log("Pathname: " + value);
+console.log("Yol adı (pathname): " + value);
 value = window.location.protocol;
-console.log("Protocol: " + value);
+console.log("Protokol (http/https): " + value);
 value = window.location.search;
-console.log("Search: " + value);
+console.log("Sorgu dizgisi (search): " + value);
 
 if (confirm("Sayfayı yenilemek istiyor musunuz?")) {
     window.location.reload();

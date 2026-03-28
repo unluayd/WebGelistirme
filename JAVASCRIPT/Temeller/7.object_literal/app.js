@@ -1,3 +1,5 @@
+// EGITIM-TR: JavaScript dil temelleri — '7.object_literal' konusu örnek JavaScript betiği.
+
 let person;
 const programmer = {
     name: "John",
@@ -8,6 +10,7 @@ const programmer = {
         city: "New York",
         country: "USA"
     },
+    // Metot: nesne üzerinden çağrıldığında this, o nesneyi işaret eder.
     greet: function() {
         console.log(`Hello, my name is ${this.name} ${this.surname} and I am ${this.age} years old.`);
     }

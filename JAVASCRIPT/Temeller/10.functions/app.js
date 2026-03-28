@@ -1,8 +1,12 @@
+// EGITIM-TR: JavaScript dil temelleri — '10.functions' konusu örnek JavaScript betiği.
+
+// --- Fonksiyon bildirimi (function declaration) ---
 function merhaba(name,age){
     console.log(`Merhaba ${name} yaşınız ${age}`);
 }
 merhaba("Ahmet", 30);
 
+// return: fonksiyondan değer döndürür; return sonrası satırlar çalışmaz.
 function square(number){
     return number * number;
     console.log("Bu kod çalışmaz çünkü return'den sonra gelir.");
@@ -15,17 +19,18 @@ function cube(number){
 console.log(square(5));
 console.log(cube(square(3)));
 
-//Function Expression
+// --- Fonksiyon ifadesi (function expression): değişkene atanmış anonim fonksiyon ---
 const merhabele = function(isim){
     console.log(`Merhaba ${isim}`);
 }
 merhabele("Aydın");
 
-//Immediately Invoked Function Expression (IIFE)
+// --- Anında çağrılan fonksiyon ifadesi (IIFE): tanımlandığı yerde bir kez çalışır ---
 (function(a,b){
     console.log(a+b);
 })(5,10);
 
+// Nesne içinde metot olarak tanımlanmış fonksiyonlar.
 database = {
     host: "localhost",
     add: function(){

@@ -1,3 +1,5 @@
+// EGITIM-TR: JavaScript dil temelleri — '8.date_object' konusu örnek JavaScript betiği.
+
 let value;
 
 const now = new Date(); // Şu anki tarihi ve saati temsil eder

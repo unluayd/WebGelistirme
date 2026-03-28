@@ -1,4 +1,9 @@
+// EGITIM-TR: JavaScript dil temelleri — '3.tip_donusumleri' konusu örnek JavaScript betiği.
+
+// typeof ile birlikte konsola yazdırarak değerin türünü gözlemleyebilirsiniz.
+
 let value;
+// Sayıyı dizgeye çevirme (String yapıcısı).
 value = String(123);
 console.log(value, typeof value);
 
@@ -20,6 +25,7 @@ console.log(value, typeof value);
 value = String(undefined);
 console.log(value, typeof value);
 
+// Dizgeyi sayıya çevirme (Number, parseInt, parseFloat).
 value = Number("123");
 console.log(value, typeof value);
 
@@ -34,6 +40,7 @@ console.log(value, typeof value);
 
 value = Number("abc");
 console.log(value, typeof value);
+// Geçersiz sayısal dizgeler NaN üretir.
 
 value = Boolean(0);
 console.log(value, typeof value);

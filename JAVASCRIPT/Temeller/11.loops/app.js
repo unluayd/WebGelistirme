@@ -1,5 +1,8 @@
+// EGITIM-TR: JavaScript dil temelleri — '11.loops' konusu örnek JavaScript betiği.
+
 let i=10;
 
+// while: koşul doğru olduğu sürece döngü gövdesi tekrarlanır.
 while(i>0){
     console.log(i);
     i--;
@@ -7,6 +10,7 @@ while(i>0){
 console.log("Döngü bitti.\n");
 let j=10;
 
+// break: döngüyü tamamen sonlandırır.
 while(j>0){
     console.log(j);
     if(j===5){
@@ -16,6 +20,7 @@ while(j>0){
 }
 console.log("Döngü bitti.\n");
 let k=10;
+// continue: o anki yinelemenin geri kalanını atlayıp sonraki yinelemeye geçer.
 while(k>0){
     if(k===5 || k===3){
         k--;
@@ -26,6 +31,7 @@ while(k>0){
 }
 console.log("Döngü bitti.\n");
 
+// do...while: koşul sonda kontrol edilir; gövde en az bir kez çalışır.
 do{
     console.log(i);
     i--;
@@ -34,10 +40,12 @@ console.log("Döngü bitti.\n");
 
 const lags = ["LAG-1", "LAG-2", "LAG-3", "LAG-4", "LAG-5"];
 
+// for: başlangıç; koşul; adım ifadeleri ile klasik sayaçlı döngü.
 for(let i=0; i<lags.length; i++){
     console.log(lags[i]);
 }
 console.log("Döngü bitti.\n");
+// Çift indeksleri atlayarak yalnızca tek sayıları yazdırma örneği.
 for(let i=0; i<10; i++){
     if(i%2===0){
         continue;
@@ -57,6 +65,7 @@ console.log(names);
 const ages = users.map(user => user.age);
 console.log(ages);
 
+// for...in: nesnenin numaralanabilir özellik anahtarları üzerinde döngü.
 const user = {
     name: "Ahmet",
     age: 30,

@@ -1,3 +1,5 @@
+// EGITIM-TR: JavaScript dil temelleri — '6.arrays' konusu örnek JavaScript betiği.
+
 let value;
 
 const numbers = [1, 2, 3, 4, 5];
