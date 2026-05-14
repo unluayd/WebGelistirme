@@ -1,0 +1,83 @@
+<!doctype html>
+
+<!-- EGITIM-TR: CSS3 eğitimi (CSS temel konuları): '18.tables' sayfası — stiller ve düzen örnekleri. -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+    /* EGITIM-STIL: Bu bloktaki CSS kuralları yalnızca eğitim örneğidir. */
+
+      table,
+      thead,
+      th,
+      tr,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      table {
+        width: 75%;
+        margin: 0px auto;
+        font-size: 1.5em;
+      }
+      th,
+      td {
+        padding: 10px;
+        text-align: center;
+      }
+      thead tr {
+        background: green;
+        color: white;
+      }
+      tbody tr {
+        text-align: center;
+      }
+      tbody tr:nth-child(even) {
+        background-color: lightgray;
+      }
+      tbody tr:hover {
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- EGITIM-GOVDE: Örnek sayfa gövdesi (içerik alanı) -->
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Department</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Aydın</td>
+          <td>Bilişim</td>
+          <td>4000 TL</td>
+        </tr>
+
+        <tr>
+          <td>Ebru</td>
+          <td>Eğitim</td>
+          <td>4500 TL</td>
+        </tr>
+
+        <tr>
+          <td>Emre</td>
+          <td>Sağlık</td>
+          <td>5000 TL</td>
+        </tr>
+
+        <tr>
+          <td>Eda</td>
+          <td>İnsan Kaynakları</td>
+          <td>6000 TL</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

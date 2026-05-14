@@ -1,0 +1,61 @@
+<!doctype html>
+
+<!-- EGITIM-TR: CSS3 eğitimi (CSS Flexbox düzeni): '2.Flexitem' sayfası — stiller ve düzen örnekleri. -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+    /* EGITIM-STIL: Bu bloktaki CSS kuralları yalnızca eğitim örneğidir. */
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .conteiner {
+        width: 75%;
+        min-height: 700px;
+        margin: 0 auto;
+        display: flex;
+        justify-content:space-around;
+        align-items:flex-start;
+        background-color: black;
+        flex-wrap: wrap;
+      }
+      .box {
+        background-color: #f2f2f2;
+        text-align: center;
+        width: 200px;
+        height: 100px;
+        border: 1px solid black;
+        margin: 10px;
+      }
+        .box-1 {
+            order: 3;
+            background: red;
+            flex-grow: 3;
+        }
+        .box-2 {
+            order: 1;
+            background: green;
+            flex-grow: 1;
+        }
+        .box-3 {
+            order: 2;
+            background: blue;
+            align-self: center;
+            flex-grow: 2;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- EGITIM-GOVDE: Örnek sayfa gövdesi (içerik alanı) -->
+
+    <div class="conteiner">      
+        <div class="box box-1"></div>
+        <div class="box box-2"></div>
+        <div class="box box-3"></div>
+  </body>
+</html>

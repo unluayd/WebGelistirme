@@ -1,0 +1,89 @@
+<!doctype html>
+
+<!-- EGITIM-TR: CSS3 eğitimi (CSS temel konuları): '20.position' sayfası — stiller ve düzen örnekleri. -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+    /* EGITIM-STIL: Bu bloktaki CSS kuralları yalnızca eğitim örneğidir. */
+
+      .fixed-topbar {
+        position: fixed;
+        width: 50%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 1.5em;
+      }
+      .red {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: relative;
+        top: 200px;
+        left: 50px;
+        z-index: 1;
+      }
+      .blue {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: relative;
+        top: 180px;
+        left: 60px;
+      }
+      .outer-box {
+        width: 200px;
+        height: 200px;
+        background-color: lightgray;
+        position: absolute;
+        top: 400px;
+        left: 50px;
+      }
+      .inner-box {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+      }
+      span {
+        width: 200px;
+        height: 50px;
+        background-color: yellow;
+        position: absolute;
+        top: 700px;
+        left: 200px;
+        display: inline-block;
+        font-size: 1.5em;
+        color: purple;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body style="height: 1000px">
+    <!-- EGITIM-GOVDE: Örnek sayfa gövdesi (içerik alanı) -->
+
+    <div class="fixed-topbar">Udemy</div>
+    <div class="red"></div>
+    <div class="blue"></div>
+    <div class="outer-box">
+      <div class="inner-box"></div>
+    </div>
+    <span></span>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex distinctio nam
+    ducimus adipisci, labore eius nobis ea vitae tenetur nostrum quis veniam
+    nulla harum culpa, iste, dicta molestiae modi maxime explicabo
+    necessitatibus? Odio, nostrum qui praesentium vitae officia aliquam ipsum
+    fuga ipsam perferendis modi rerum nemo a et eligendi. Dolores repellendus
+    voluptas dolorum blanditiis. Optio odio quo quas. Molestias quam veritatis,
+    vero perspiciatis ratione aliquid id qui aut quae aperiam deleniti
+    consectetur corporis hic expedita accusantium dicta! Consequuntur, fugiat!
+    Accusantium aspernatur, pariatur ad qui iusto laudantium ipsum maxime beatae
+    optio deserunt ipsa quam, quis voluptatibus ullam sequi quia dolore eveniet.
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!doctype html>
+
+<!-- EGITIM-TR: CSS3 eğitimi (Duyarlı (responsive) tasarım): '2.different-unit' sayfası — stiller ve düzen örnekleri. -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+    /* EGITIM-STIL: Bu bloktaki CSS kuralları yalnızca eğitim örneğidir. */
+
+      html {
+        font-size: 16px;
+      }
+      div {
+        font-size: 1.5em;
+      }
+      p {
+        font-size: 2rem;
+      }
+      .background {
+        background: url("./images/kedi.jpeg") 
+        center center no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        color: #000000;
+        align-items: center;
+        padding: 10rem;
+      }
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+      @media (max-width: 768px) {
+        .background {
+          background: url("./images/kedi.jpeg") center center no-repeat;
+          background-size: cover;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          color: #000000;
+          align-items: center;
+          padding: 5rem;
+        }
+        h1 {
+          font-size: 2rem;
+          margin-bottom: 0.5rem;
+        }
+        p {
+          font-size: 1.5rem;
+          letter-spacing: 1px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- EGITIM-GOVDE: Örnek sayfa gövdesi (içerik alanı) -->
+
+    <div>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, culpa!
+      </p>
+    </div>
+    <div class="background">
+      <h1>Welcome to the site</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, officia?
+      </p>
+    </div>
+  </body>
+</html>

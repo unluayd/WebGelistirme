@@ -1,0 +1,51 @@
+<!doctype html>
+
+<!-- EGITIM-TR: CSS3 eğitimi (CSS temel konuları): '16.pseudo-elements' sayfası — stiller ve düzen örnekleri. -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+    /* EGITIM-STIL: Bu bloktaki CSS kuralları yalnızca eğitim örneğidir. */
+
+      .para1 {
+        font-size: 1.5em;
+        letter-spacing: 2px;
+        line-height: 1.5em;
+      }
+      .para1::first-letter {
+        font-size: 3em;
+        color: red;
+      }
+      .para1::first-line {
+        font-weight: bold;
+      }
+      .para1::before {
+        content: "Before text - ";
+        color: blue;
+      }
+      .para1::after {
+        content: " - After text";
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- EGITIM-GOVDE: Örnek sayfa gövdesi (içerik alanı) -->
+
+    <p class="para1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dignissimos
+      tempora velit corrupti aliquam autem dicta possimus libero cum, mollitia
+      cupiditate, recusandae iusto, sunt natus saepe blanditiis? Voluptatum
+      alias consectetur animi, molestias amet aut officia, ullam, et id unde
+      iure rerum illum ut eius recusandae. Labore repellendus perspiciatis ipsum
+      voluptatum, debitis tempora consequuntur veritatis quo corrupti,
+      recusandae temporibus vel totam vitae? In, laborum facilis voluptas aut
+      nihil consequuntur quisquam quia impedit quasi, odit autem tenetur
+      sapiente aliquam libero? Dignissimos dolores officiis, laudantium ullam
+      magni aspernatur quo illo at delectus, aliquid, temporibus doloribus est
+      eaque quis aliquam culpa itaque ea. Numquam.
+    </p>
+  </body>
+</html>
